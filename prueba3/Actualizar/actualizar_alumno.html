@@ -1,0 +1,63 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+</head>
+
+
+<style type="text/css">@import url(../calendario/calendar-win2k-1.css);</style>
+<script type="text/javascript" src="../calendario/calendar.js"></script>
+<script type="text/javascript" src="../calendario/lang/calendar-en.js"></script>
+<script type="text/javascript" src="../calendario/calendar-setup.js"></script>
+
+
+<body>
+
+<center>
+<form id="ac_alumno" action="actualizar_alumno.php" method="post">
+
+<h1>Actualizar alumno</h1><br>
+<table>
+<tr><td>Rut :</td><td> <input type="text" name="rut">-<input type="text" name="dv" size="2"></td></tr>
+
+<tr><td>Apellido paterno: </td><td><input type="text" name="padre"></td></tr>
+<tr><td>Apellido materno:</td><td> <input type="text" name="madre"></td></tr>
+<tr><td>Nombres:</td><td> <input type="text" name="nombres"></td></tr>
+<tr><td>Fecha de nacimiento: </td><td>
+
+<form action="#" method="post">
+ 
+<input type="text" name="fecha" id="f_date_c" readonly="1" />
+<img src="../calendario/img.gif" id="f_trigger_c"  border:"1px solid red;" title="Calendario" style="cursor: pointer; border: 1px solid red;"  onmouseover="this.style.background='red';" onmouseout="this.style.background=''"/>
+   </form>
+<script type="text/javascript"> 
+ 
+    Calendar.setup({
+        inputField     :    "f_date_c",            
+        ifFormat       :    "%Y/%m/%d",      
+        button         :    "f_trigger_c",        
+        align          :    "Tl",                     
+        singleClick    :    true
+    });
+</script></td></tr>
+
+<tr><td>Codigo comuna:</td><td><input type="text" name="cod_comuna" value="" maxlength="5" size="4" /></td></tr>
+
+<tr><td>Sexo:</td><td>
+<input type="radio" name="radio" value="m">Masculino
+<input type="radio" name="radio" value="f">Femenino
+<input type="radio" name="radio" value="O">Otro
+</td></tr>
+
+<tr><td>Fono: </td><td><input type="text" name="fono"></td></tr>
+
+<tr><td>Direccion:</td><td><input type="text" name="direccion" value="" /></td></tr>
+</table>
+
+   <br><br>
+<input type="submit" value="Actualizar">
+<a href="menu_act.html"><input type="button" value="Cancelar"></a>
+
+
+</form> </center>
+</body>
+</html>

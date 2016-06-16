@@ -1,0 +1,71 @@
+#in_region{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#in_comuna{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#in_sexo{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#in_alumno{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#in_subscripcion{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#in_revista{
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+#ac_comuna{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
+
+#ac_region{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
+
+#ac_alumno{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
+
+#ac_revista{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
+
+#ac_subscripcion{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
+
+#ac_sexo{
+  width: 100%;
+  height: 100%;
+  background-color: #66CCFF;
+}
